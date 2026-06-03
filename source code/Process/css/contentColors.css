@@ -1,0 +1,43 @@
+.cont-base {
+    --cont-main-colour: #67a552;
+    --cont-heading-colour: #67a552;
+    --cont-emph-colour: #F06922;
+    --cont-block-simple-1-bg: #cdddbb;
+    --cont-block-simple-2-bg: #cad3df;
+    --cont-block-simple-3-bg: #dababd;
+    --cont-block-simple-4-bg: #cecbd8;
+    --cont-block-simple-5-bg: #fceede;
+    --cont-block-1-colour: #67a552;
+    --cont-block-2-colour: #b67061;
+    --cont-block-3-colour: #d97f48;
+    --cont-block-4-colour: #b4708d;
+    --cont-block-5-colour: #b4b087;
+    --cont-colour-custom-1: #cbded2;
+    --cont-colour-custom-2: #cbdef0;
+    --cont-colour-custom-3: #ecd8e0;
+    --cont-colour-custom-4: #7dc090;
+    --cont-colour-custom-5: #fdf250;
+
+    --cont-colour-main-RGB: 103,165,82;
+    --cont-on-main-colour: rgb(255, 255, 255);
+    --cont-block-1-colour-RGB: 103,165,82;
+    --cont-on-block-1-colour: rgb(255, 255, 255);
+    --cont-block-1-bg: rgb(240, 246, 238);
+    --cont-on-block-1-bg: rgb(103, 165, 82);
+    --cont-block-2-colour-RGB: 182,112,97;
+    --cont-on-block-2-colour: rgb(255, 255, 255);
+    --cont-block-2-bg: rgb(248, 241, 239);
+    --cont-on-block-2-bg: rgb(182, 112, 97);
+    --cont-block-3-colour-RGB: 217,127,72;
+    --cont-on-block-3-colour: rgb(255, 255, 255);
+    --cont-block-3-bg: rgb(251, 242, 237);
+    --cont-on-block-3-bg: rgb(217, 127, 72);
+    --cont-block-4-colour-RGB: 180,112,141;
+    --cont-on-block-4-colour: rgb(255, 255, 255);
+    --cont-block-4-bg: rgb(248, 241, 244);
+    --cont-on-block-4-bg: rgb(180, 112, 141);
+    --cont-block-5-colour-RGB: 180,176,135;
+    --cont-on-block-5-colour: rgb(255, 255, 255);
+    --cont-block-5-bg: rgb(248, 247, 243);
+    --cont-on-block-5-bg: rgb(180, 176, 135);
+}

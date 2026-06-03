@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:mathml="http://www.w3.org/1998/Math/MathML">
+<head>
+<title>Indices, exponentials and logarithms: Introducing logarithms</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="../../css/contentStyles.css" type="text/css" />
+<link rel="stylesheet" href="../../css/contentColors.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700" />
+<script src="../../js/custom.js"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML.js"></script>
+</head>
+<body class="cont-base cont-proof">
+<div class="cont-section">
+<span class="cont-section-head cont-head-a">Exercise 8G</span>
+<table class="cont-table cont-question-group-info">
+<tbody>
+<tr>
+<th class="cont-text-start"><p><span class="cont-colour-custom-4">Understanding</span></p></th>
+<td class="cont-text-center"><p>1&#x2013;3</p></td>
+<td class="cont-text-center"><p>2(&#x00BD;), 3</p></td>
+</tr>
+<tr>
+<th class="cont-text-start"><p><span class="cont-colour-custom-2">Fluency</span></p></th>
+<td class="cont-text-center"><p>4&#x2013;6(&#x00BD;), 8(&#x00BD;)</p></td>
+<td class="cont-text-center"><p>4&#x2013;8(&#x00BD;)</p></td>
+</tr>
+<tr>
+<th class="cont-text-start"><p><span class="cont-colour-custom-3">Problem-solving and reasoning</span></p></th>
+<td class="cont-text-center"><p>9, 10</p></td>
+<td class="cont-text-center"><p>9&#x2013;11</p></td>
+</tr>
+<tr>
+<th class="cont-text-start"><p><span class="cont-colour-custom-5"><span class="cont-vertical-align-middle"><img src="../../common/star.png" alt="images"/></span> The Richter Magnitude</span></p></th>
+<td class="cont-text-center cont-vertical-align-middle"><p>&#x2014;</p></td>
+<td class="cont-text-center cont-vertical-align-middle"><p>12</p></td>
+</tr>
+</tbody>
+</table>
+<ol class="cont-question-group cont-list-decimal" data-auto-mark="false">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response" data-working-programs="setLevel1" data-category="Understanding">
+<div class="cont-question-body">
+<figure class="cont-img-block cont-img-embedded cont-img-s-30"><img src="../images/ch08_character34.jpg" alt="images"/></figure>
+<p>State the missing values in this table.</p>
+<table class="cont-table cont-table-basic cont-img-s-60">
+<tbody>
+<tr>
+<td class="cont-text-center"><b>\(x\)</b></td>
+<td class="cont-text-center">\(0\)</td>
+<td class="cont-text-center">\(1\)</td>
+<td class="cont-text-center">\(2\)</td>
+<td class="cont-text-center">\(3\)</td>
+<td class="cont-text-center">\(4\)</td>
+<td class="cont-text-center">\(5\)</td>
+</tr>
+<tr>
+<td class="cont-text-center"><b>\(2^x\)</b></td>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+</tr>
+<tr>
+<td class="cont-text-center"><b>\(3^x\)</b></td>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center">\(243\)</td>
+</tr>
+<tr>
+<td class="cont-text-center"><b>\(4^x\)</b></td>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center">\(256\)</td>
+<td class="cont-text-center"/>
+</tr>
+<tr>
+<td class="cont-text-center"><b>\(5^x\)</b></td>
+<td class="cont-text-center"/>
+<td class="cont-text-center">\(5\)</td>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+</tr>
+<tr>
+<td class="cont-text-center"><b>\(10^x\)</b></td>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center">\(100\)</td>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+</tr>
+</tbody>
+</table></div>
+<div class="cont-question-solution"><table class="cont-table cont-table-basic cont-img-s-60">
+<tbody>
+<tr>
+<th class="cont-text-center"><b>\(x\)</b></th>
+<td class="cont-text-right">\(0\)</td>
+<td class="cont-text-right">\(1\)</td>
+<td class="cont-text-right">\(2\)</td>
+<td class="cont-text-right">\(3\)</td>
+<td class="cont-text-right">\(4\)</td>
+<td class="cont-text-right">\(5\)</td>
+</tr>
+<tr>
+<th class="cont-text-center"><b>\(2^{x}\)</b></th>
+<td class="cont-text-right">\(1\)</td>
+<td class="cont-text-right">\(2\)</td>
+<td class="cont-text-right">\(4\)</td>
+<td class="cont-text-right">\(8\)</td>
+<td class="cont-text-right">\(16\)</td>
+<td class="cont-text-right">\(32\)</td>
+</tr>
+<tr>
+<th class="cont-text-center"><b>\(3^{x}\)</b></th>
+<td class="cont-text-right">\(1\)</td>
+<td class="cont-text-right">\(3\)</td>
+<td class="cont-text-right">\(9\)</td>
+<td class="cont-text-right">\(27\)</td>
+<td class="cont-text-right">\(81\)</td>
+<td class="cont-text-right">\(243\)</td>
+</tr>
+<tr>
+<th class="cont-text-center"><b>\(4^{x}\)</b></th>
+<td class="cont-text-right">\(1\)</td>
+<td class="cont-text-right">\(4\)</td>
+<td class="cont-text-right">\(16\)</td>
+<td class="cont-text-right">\(64\)</td>
+<td class="cont-text-right">\(256\)</td>
+<td class="cont-text-right">\(1024\)</td>
+</tr>
+<tr>
+<th class="cont-text-center"><b>\(5^{x}\)</b></th>
+<td class="cont-text-right">\(1\)</td>
+<td class="cont-text-right">\(5\)</td>
+<td class="cont-text-right">\(25\)</td>
+<td class="cont-text-right">\(125\)</td>
+<td class="cont-text-right">\(625\)</td>
+<td class="cont-text-right">\(3125\)</td>
+</tr>
+<tr>
+<th class="cont-text-center"><b>\(10^{x}\)</b></th>
+<td class="cont-text-right">\(1\)</td>
+<td class="cont-text-right">\(10\)</td>
+<td class="cont-text-right">\(100\)</td>
+<td class="cont-text-right">\(1000\)</td>
+<td class="cont-text-right">\(10\ 000\)</td>
+<td class="cont-text-right">\(100\,000\)</td>
+</tr></tbody></table>
+</div>
+</li>
+<li class="cont-question" data-working-programs="setLevel1 setLevel2H" data-category="Understanding">
+<div class="cont-question-head"><p>State the value of the unknown number for each statement.</p></div>
+<ol class="cont-question-group cont-list-lower-alpha">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(2\) to the power of what number gives \(16\)?</p></div>
+<div class="cont-question-solution"><p>\(4\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(3\) to the power of what number gives \(81\)?</p></div>
+<div class="cont-question-solution"><p>\(4\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(7\) to the power of what number gives \(343\)?</p></div>
+<div class="cont-question-solution"><p>\(3\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(10\) to the power of what number gives \(10 000\)?</p></div>
+<div class="cont-question-solution"><p>\(4\)</p></div>
+</li>
+</ol>
+</li>
+<li class="cont-question" data-working-programs="setLevel1 setLevel2" data-category="Understanding">
+<div class="cont-question-head"><p>Give these numbers as fractions.</p></div>
+<ol class="cont-question-group cont-list-lower-alpha">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(0.0001\)</p></div>
+<div class="cont-question-solution"><p>\(\dfrac{1}{10 000}\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(0.5\)</p></div>
+<div class="cont-question-solution"><p>\(\dfrac{1}{2}\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(2^{-2}\)</p></div>
+<div class="cont-question-solution"><p>\(\dfrac{1}{4}\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(3^{- 3}\)</p></div>
+<div class="cont-question-solution"><p>\(\dfrac{1}{27}\)</p></div>
+</li>
+</ol>
+</li>
+<li class="cont-question" data-working-programs="setLevel1H setLevel2H" data-category="Fluency">
+<div class="cont-question-head">
+<figure class="cont-img-block cont-img-embedded cont-img-s-30"><img src="../images/ch08_character35.jpg" alt="images"/></figure>
+<p>Write the following in index form.</p></div>
+<ol class="cont-question-group cont-list-lower-alpha">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{2}\,16=4\)</p></div>
+<div class="cont-question-solution"><p>\(2^{4}= 16\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,100=2\)</p></div>
+<div class="cont-question-solution"><p>\(10^{2}= 100\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{3}\,27=3\)</p></div>
+<div class="cont-question-solution"><p>\(3^{3}= 27\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{2} \dfrac{1}{4}=- 2\)</p></div>
+<div class="cont-question-solution"><p>\(2^{- 2}= \dfrac{1}{4}\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,0.1=- 1\)</p></div>
+<div class="cont-question-solution"><p>\(10^{- 1}= 0.1\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{3} \dfrac{1}{9}=- 2\)</p></div>
+<div class="cont-question-solution"><p>\(3^{- 2}= \dfrac{1}{9}\)</p></div>
+</li>
+</ol>
+</li>
+<li class="cont-question" data-working-programs="setLevel1H setLevel2H" data-category="Fluency">
+<div class="cont-question-head">
+<figure class="cont-img-block cont-img-embedded cont-img-s-30"><img src="../images/ch08_character36.jpg" alt="images"/></figure>
+<p>Write the following in logarithmic form.</p></div>
+<ol class="cont-question-group cont-list-lower-alpha">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(2^{3}= 8\)</p></div>
+<div class="cont-question-solution"><p>\(\log _{2} (8)= 3\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(3^{4}= 81\)</p></div>
+<div class="cont-question-solution"><p>\(\log _{3} (81)= 4\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(2^{5}= 32\)</p></div>
+<div class="cont-question-solution"><p>\(\log _{2} (32)= 5\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(4^{2}=16\)</p></div>
+<div class="cont-question-solution"><p>\(\log _{4} (16)= 2\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(10^{-1}=\dfrac{1}{10}\)</p></div>
+<div class="cont-question-solution"><p>\(\log _{10} \left (\dfrac{1}{10}\right )= - 1\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(5^{-3}=\dfrac{1}{125}\)</p></div>
+<div class="cont-question-solution"><p>\(\log _{5} \left (\dfrac{1}{125}\right )= - 3\)</p></div>
+</li>
+</ol>
+</li>
+<li class="cont-question" data-working-programs="setLevel1H setLevel2H" data-category="Fluency">
+<div class="cont-question-head">
+<figure class="cont-img-block cont-img-embedded cont-img-s-30"><img src="../images/ch08_character37.jpg" alt="images"/></figure>
+<p>Evaluate the following logarithms.</p></div>
+<ol class="cont-question-group cont-list-lower-alpha">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{2}\,16\)</p></div>
+<div class="cont-question-solution"><p>\(4\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{2}\,4\)</p></div>
+<div class="cont-question-solution"><p>\(2\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{2}\,64\)</p></div>
+<div class="cont-question-solution"><p>\(6\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{3}\,27\)</p></div>
+<div class="cont-question-solution"><p>\(3\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{3}\,3\)</p></div>
+<div class="cont-question-solution"><p>\(1\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{4}\,16\)</p></div>
+<div class="cont-question-solution"><p>\(2\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{5}\,125\)</p></div>
+<div class="cont-question-solution"><p>\(3\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,1000\)</p></div>
+<div class="cont-question-solution"><p>\(3\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{7}\,49\)</p></div>
+<div class="cont-question-solution"><p>\(2\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{11}\,121\)</p></div>
+<div class="cont-question-solution"><p>\(2\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,100\,000\)</p></div>
+<div class="cont-question-solution"><p>\(5\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{9}\,729\)</p></div>
+<div class="cont-question-solution"><p>\(3\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{2}\,1\)</p></div>
+<div class="cont-question-solution"><p>\(0\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{5}\,1\)</p></div>
+<div class="cont-question-solution"><p>\(0\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{37}\,1\)</p></div>
+<div class="cont-question-solution"><p>\(0\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{1}\,1\)</p></div>
+<div class="cont-question-solution"><p>Undefined</p></div>
+</li>
+</ol>
+</li>
+<li class="cont-question" data-working-programs="setLevel2H" data-category="Fluency">
+<div class="cont-question-head">
+<figure class="cont-img-block cont-img-embedded cont-img-s-30"><img src="../images/ch08_character38.jpg" alt="images"/></figure>
+<p>Evaluate the following.</p></div>
+<ol class="cont-question-group cont-list-lower-alpha">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{2} \dfrac{1}{8}\)</p></div>
+<div class="cont-question-solution"><p>\(- 3\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{2} \dfrac{1}{4}\)</p></div>
+<div class="cont-question-solution"><p>\(- 2\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{3} \dfrac{1}{9}\)</p></div>
+<div class="cont-question-solution"><p>\(- 2\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10} \dfrac{1}{1000}\)</p></div>
+<div class="cont-question-solution"><p>\(- 3\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{7} \dfrac{1}{49}\)</p></div>
+<div class="cont-question-solution"><p>\(- 2\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{3} \dfrac{1}{81}\)</p></div>
+<div class="cont-question-solution"><p>\(- 4\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{5} \dfrac{1}{625}\)</p></div>
+<div class="cont-question-solution"><p>\(- 4\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{8} \dfrac{1}{8}\)</p></div>
+<div class="cont-question-solution"><p>\(- 1\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,0.1\)</p></div>
+<div class="cont-question-solution"><p>\(- 1\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,0.001\)</p></div>
+<div class="cont-question-solution"><p>\(- 3\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,0.00001\)</p></div>
+<div class="cont-question-solution"><p>\(- 5\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{2}\,0.5\)</p></div>
+<div class="cont-question-solution"><p>\(- 1\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{2}\,0.125\)</p></div>
+<div class="cont-question-solution"><p>\(- 3\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{5}\,0.2\)</p></div>
+<div class="cont-question-solution"><p>\(- 1\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{5}\,0.04\)</p></div>
+<div class="cont-question-solution"><p>\(- 2\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{3}\,0.\dot{1}\)</p></div>
+<div class="cont-question-solution"><p>\(- 2\)</p></div>
+</li>
+</ol>
+</li>
+<li class="cont-question" data-working-programs="setLevel1H setLevel2H" data-category="Fluency">
+<div class="cont-question-head">
+<p><span class="cont-vertical-align-middle"><img src="../../common/calculator.png" alt="images"/></span> Evaluate, correct to three decimal places, using a calculator.</p></div> 
+<ol class="cont-question-group cont-list-lower-alpha">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,6\)</p></div>
+<div class="cont-question-solution"><p>\(0.778\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,47\)</p></div>
+<div class="cont-question-solution"><p>\(1.672\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,162\)</p></div>
+<div class="cont-question-solution"><p>\(2.210\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,0.8\)</p></div>
+<div class="cont-question-solution"><p>\(- 0.097\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10}\,0.17\)</p></div>
+<div class="cont-question-solution"><p>\(- 0.770\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\rm{log}_{10} \dfrac{1}{27}\)</p></div>
+<div class="cont-question-solution"><p>\(- 1.431\)</p></div>
+</li>
+</ol>
+</li>
+<li class="cont-question" data-working-programs="setLevel1 setLevel2" data-category="Problem-solving and reasoning">
+<div class="cont-question-head"><p>A single bacterium cell divides into two every minute.</p>
+<figure class="cont-img-block cont-img-embedded">
+<table class="cont-table cont-table-basic cont-img-s-40">
+<tbody>
+<tr>
+<td class="cont-text-left"><span class="cont-colour-custom-4"><b>Time (minutes)</b></span></td>
+<td class="cont-text-center">\(0\)</td>
+<td class="cont-text-center">\(1\)</td>
+<td class="cont-text-center">\(2\)</td>
+<td class="cont-text-center">\(3\)</td>
+<td class="cont-text-center">\(4\)</td>
+<td class="cont-text-center">\(5\)</td>
+</tr>
+<tr>
+<td class="cont-text-left"><span class="cont-colour-custom-4"><b>Population</b></span></td>
+<td class="cont-text-center">\(1\)</td>
+<td class="cont-text-center">\(2\)</td>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+<td class="cont-text-center"/>
+</tr>
+</tbody>
+</table></figure></div>
+<ol class="cont-question-group cont-list-lower-alpha">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>Complete this cell population table.</p></div>
+<div class="cont-question-solution">
+<table class="cont-table cont-table-basic cont-img-s-40">
+<tbody>
+<tr>
+<th class="cont-text-center">Time (min)</th>
+<td class="cont-text-center">\(0\)</td>
+<td class="cont-text-center">\(1\)</td>
+<td class="cont-text-center">\(2\)</td>
+<td class="cont-text-center">\(3\)</td>
+<td class="cont-text-center">\(4\)</td>
+<td class="cont-text-center">\(5\)</td>
+</tr>
+<tr>
+<th class="cont-text-center">Population</th>
+<td class="cont-text-center">\(1\)</td>
+<td class="cont-text-center">\(2\)</td>
+<td class="cont-text-center">\(4\)</td>
+<td class="cont-text-center">\(8\)</td>
+<td class="cont-text-center">\(16\)</td>
+<td class="cont-text-center">\(32\)</td>
+</tr></tbody></table>
+</div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>Write a rule for the population, \(P\), after \(t\) minutes.</p></div>
+<div class="cont-question-solution"><p>\(P=2^{t}\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>Use your rule to find the population after \(8\) minutes.</p></div>
+<div class="cont-question-solution"><p>\(256\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>Use trial and error to find the time (correct to the nearest minute) for the population to rise to \(10\,000\).</p></div>
+<div class="cont-question-solution"><p>\(13\) min</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>Write the exact answer to part <span class="cont-colour-custom-4"><b>d</b></span> as a logarithm.</p>
+</div>
+<div class="cont-question-solution"><p>\(\log _{2} (10 000)\)</p></div>
+<p class="cont-clear">&#x00A0;</p>
+</li>
+</ol>
+</li>
+<li class="cont-question" data-working-programs="setLevel1 setLevel2" data-category="Problem-solving and reasoning">
+<div class="cont-question-head"><p>Consider a bacteria population growing such that the total increases \(10\)-fold every hour.</p></div>
+<ol class="cont-question-group cont-list-lower-alpha">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>Complete this table for the population \((P)\) and \(\log _{10}P\) for \(5\) hours \((h)\).</p>
+<table class="cont-table cont-table-basic cont-img-s-70">
+<tbody>
+<tr>
+<td class="cont-text-left"><p><span class="cont-colour-custom-3"><b>\(h \)</b></span></p></td>
+<td class="cont-text-left"><p>\(0\)</p></td>
+<td class="cont-text-left"><p>\(1\)</p></td>
+<td class="cont-text-left"><p>\(2\)</p></td>
+<td class="cont-text-left"><p>\(3\)</p></td>
+<td class="cont-text-left"><p>\(4\)</p></td>
+<td class="cont-text-left"><p>\(5\)</p></td>
+</tr>
+<tr>
+<td class="cont-text-left"><p><span class="cont-colour-custom-3"><b>\(P \)</b></span></p></td>
+<td class="cont-text-left"><p>\(1\)</p></td>
+<td class="cont-text-left"><p>\(10\)</p></td>
+<td class="cont-text-left"><p>\(100\)</p></td>
+<td class="cont-text-left"/>
+<td class="cont-text-left"/>
+<td class="cont-text-left"/>
+</tr>
+<tr>
+<td class="cont-text-left"><p><span class="cont-colour-custom-3"><b>\({\log _{10}}p\)</b></span></p></td>
+<td class="cont-text-left"/>
+<td class="cont-text-left"/>
+<td class="cont-text-left"/>
+<td class="cont-text-left"/>
+<td class="cont-text-left"/>
+<td class="cont-text-left"/>
+</tr>
+</tbody>
+</table></div>
+<div class="cont-question-solution">
+<table class="cont-table cont-table-basic cont-img-s-60">
+<tbody>
+<tr>
+<th class="cont-text-center">\(h \)</th>
+<td class="cont-text-center">\(0\)</td>
+<td class="cont-text-center">\(1\)</td>
+<td class="cont-text-center">\(2\)</td>
+<td class="cont-text-center">\(3\)</td>
+<td class="cont-text-center">\(4\)</td>
+<td class="cont-text-center">\(5\)</td>
+</tr>
+<tr>
+<th class="cont-text-center">\(P \)</th>
+<td class="cont-text-center">\(1\)</td>
+<td class="cont-text-center">\(10\)</td>
+<td class="cont-text-center">\(100\)</td>
+<td class="cont-text-center">\(1000\)</td>
+<td class="cont-text-center">\(10 000\)</td>
+<td class="cont-text-center">\(100 000\)</td>
+</tr>
+<tr>
+<th class="cont-text-center">\({\log _{10}}p\)</th>
+<td class="cont-text-center">\(0\)</td>
+<td class="cont-text-center">\(1\)</td>
+<td class="cont-text-center">\(2\)</td>
+<td class="cont-text-center">\(3\)</td>
+<td class="cont-text-center">\(4\)</td>
+<td class="cont-text-center">\(5\)</td>
+</tr></tbody></table>
+</div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>Plot a graph of \(\log _{10}P\) (\(y\)-axis) against hours (\(x\)-axis). What do you notice?</p></div>
+<div class="cont-question-solution"><p><img src="../images/Ansp00_fig_0187.png" alt="image"/></p>
+<p>Graph is a straight line.</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>Find a rule linking \(\log _{10}P\) with \(h\).</p></div>
+<div class="cont-question-solution"><p>\(\log _{10}\!\left (P\right )=h\)</p></div>
+</li>
+</ol>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response" data-working-programs="setLevel2" data-category="Problem-solving and reasoning">
+<div class="cont-question-body"><p>Is it possible for a logarithm (of the form \(\log _{a}b\)) to give a negative result? If so, give an example and reasons.</p></div>
+<div class="cont-question-solution"><p>Yes. \(0&lt; b&lt; 1\Rightarrow \log _{a}\left (b\right )&lt; 0,\ \text{when}\ a&gt; 1\); e.g. \(\log _{2} \left (\dfrac{1}{4}\right )= - 2\).</p></div>
+</li>
+<li class="cont-question" data-working-programs="setLevel2" data-category="Gold Star">
+<div class="cont-question-head">
+<p>The Richter magnitude of an earthquake is determined from a logarithm of the amplitude of waves recorded by a seismograph. It uses log base \(10\). So for example, an earthquake of magnitude \(3\) is \(10\) times more powerful than one with magnitude \(2\) and an earthquake of magnitude \(7\) is \(100\) times more powerful than one with magnitude \(5\).</p></div>
+<ol class="cont-question-group cont-list-lower-alpha">
+<li class="cont-question">
+<div class="cont-question-head"><p>Write the missing number. An earthquake of magnitude \(6\) is:</p></div>
+<ol class="cont-question-group cont-list-lower-roman">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response"><div class="cont-question-body"><p>\(\square \) times more powerful than one of magnitude \(5\).</p></div>
+<div class="cont-question-solution"><p>\(10\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response"><div class="cont-question-body"><p>\(\square \) times more powerful than one of magnitude \(4\).</p></div>
+<div class="cont-question-solution"><p>\(100\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response"><div class="cont-question-body"><p>\(\square \) times more powerful than one of magnitude \(2\).</p></div>
+<div class="cont-question-solution"><p>\(10 000\)</p></div>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="cont-question">
+<div class="cont-question-head"><p>Write the missing number. An earthquake of magnitude \(9\) is:</p></div>
+<ol class="cont-question-group cont-list-lower-roman">
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(\square \) times more powerful than one of magnitude \(8\).</p></div>
+<div class="cont-question-solution"><p>\(10\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(1000\) times more powerful than one of magnitude \(\square \).</p></div>
+<div class="cont-question-solution"><p>\(6\)</p></div>
+</li>
+<li class="cont-question" data-max-mark="1" data-use-workspace="true" data-question-type="extended-response">
+<div class="cont-question-body"><p>\(10^{6}\) times more powerful than one of magnitude \(\square \).</p></div>
+<div class="cont-question-solution"><p>\(3\)</p></div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</body>
+</html>
